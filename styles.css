@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cdf8ff;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: #138DD1;
+}
+a:active{
+    color: black;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: #138DD1;
+    color: white;
+}
+.header ul li{
+    padding: 20px 15px;
+}
+
+.logo img{
+    width: 20%;
+    padding: 0 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.user img{
+    width: 60px;
+    padding: 0 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+}
+.container-fluid{
+    background-color: #cdf8ff;
+}
+.navbar{
+    padding: 0 0;
+}
+.navbar-brand{
+    padding: 0 40px;
+}
+.nav-item{
+    padding: 0% 70px;
+}
+.d-flex{
+    margin: 0 0;
+}
+.mess-icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.login-form{
+    align-items: center;
+    margin: 5% auto;
+    width: fit-content;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 40px;
+}
+#body{
+    padding: 0 10px;
+    min-height: max-content;
+}
+@media (min-width: 1000px){
+    .course-grid{
+        width:77%;
+        float: left;
+    }
+    .sidebar{
+        width: 20%;
+        padding: 20px;
+        float: right;
+    }
+}
+@media (max-width: 1000px){
+    .sidebar{
+        display: none;
+    }
+}
+
+.card-color{
+    background-color: black;
+}
+.card-img-top{
+    width: 287px;
+    height: 180px;
+}
+.col{
+    width: 330px;
+    height: 280px;
+    margin: 20px 10px;
+}
+.card-text{
+    float: left;
+}
+.card-body i{
+    float: right;
+}
+.accordion-item{
+    background-color: #cdf8ff;
+}
+.accordion-button{
+    background-color: #cdf8ff;
+}
+
+.play{
+    margin: 40px;
+    padding: 10px 30px;
+    border: solid black 2px;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.play img{
+    width: 50px;
+}
+.course-headings{
+    padding-left: 20px;
+    font-size: 1.25rem;
+}
+
+.lectures{
+    margin: 40px;
+    padding: 10px 30px;
+    border: solid black 2px;
+    width: 70%;
+}
+.lect-head{
+    display: flex;
+    align-items: center;
+}
+.lect{
+    padding: 10px 20px;
+    border: solid black 2px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
